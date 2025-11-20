@@ -30,5 +30,8 @@
     "build": "tsup",
     "lint": "eslint src --ext .ts,.tsx",
     "prepare": "npm run build"
-  }
+  },
+  "files": [
+    "dist"
+  ]
 }
