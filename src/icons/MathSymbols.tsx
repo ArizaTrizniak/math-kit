@@ -2,7 +2,7 @@ import * as React from "react";
 import type { IconProps } from "../types";
 export const MathSymbolsIcon:React.FC<IconProps> = ({
     size = 24,
-    color = "currentColor",
+    color = "black",
     strokeWidth = 2,
     ...props
   }) => (
