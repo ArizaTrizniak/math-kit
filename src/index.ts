@@ -13,6 +13,7 @@ export { LineIcon } from "./icons/Line";
 export { MathSymbolsIcon } from "./icons/MathSymbols";
 export { PortraitIcon } from "./icons/Portrait";
 export { RedoIcon } from "./icons/Redo";
+export { RectanglesIcon } from "./icons/Rectangles";
 export { ShapesIcon } from "./icons/Shapes";
 export { SquareIcon } from "./icons/Square";
 export { TextIcon } from "./icons/Text";
