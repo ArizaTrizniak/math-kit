@@ -6,7 +6,7 @@ export { CircleIcon } from "./icons/Circle";
 export { DeleteIcon } from "./icons/Delete";
 export { DownloadIcon } from "./icons/Download";
 export { FormulaIcon } from "./icons/Formula";
-export { FormulsListIcon } from "./icons/FormulsList";
+export { FormulasListIcon } from "./icons/FormulasList";
 export { GeometryIcon } from "./icons/Geometry";
 export { LandscapeIcon } from "./icons/Landscape";
 export { LineIcon } from "./icons/Line";
