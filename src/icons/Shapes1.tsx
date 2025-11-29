@@ -1,6 +1,6 @@
 import * as React from "react";
 import {IconProps} from "../types";
-export const SvgShapes1:React.FC<IconProps> = ({
+export const Shapes1Icon:React.FC<IconProps> = ({
    size = 24,
    color = "black",
    strokeWidth = 2,

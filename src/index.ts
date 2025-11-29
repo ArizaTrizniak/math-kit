@@ -15,6 +15,7 @@ export { PortraitIcon } from "./icons/Portrait";
 export { RedoIcon } from "./icons/Redo";
 export { RectanglesIcon } from "./icons/Rectangles";
 export { ShapesIcon } from "./icons/Shapes";
+export { Shapes1Icon } from "./icons/Shapes1";
 export { SquareIcon } from "./icons/Square";
 export { TextIcon } from "./icons/Text";
 export { TriangleIcon } from "./icons/Triangle";
