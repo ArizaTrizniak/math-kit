@@ -10,7 +10,7 @@ export { FormulasListIcon } from "./icons/FormulasList";
 export { GeometryIcon } from "./icons/Geometry";
 export { LandscapeIcon } from "./icons/Landscape";
 export { LineIcon } from "./icons/Line";
-export { MathSymbolsIcon } from "./icons/MathSymbols";
+
 export { PortraitIcon } from "./icons/Portrait";
 export { RedoIcon } from "./icons/Redo";
 export { RectanglesIcon } from "./icons/Rectangles";
@@ -21,5 +21,8 @@ export { TriangleIcon } from "./icons/Triangle";
 export { UndoIcon } from "./icons/Undo";
 
 //
+export { LineCurveIcon } from "./icons/LineCurve";
+export { MathSymbolsIcon } from "./icons/MathSymbols";
+export { PencilIcon } from "./icons/Pencil";
 export { ShapesIcon } from "./icons/Shapes";
 export { TextIcon } from "./icons/Text";
