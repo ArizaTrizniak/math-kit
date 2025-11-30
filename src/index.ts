@@ -3,13 +3,8 @@ export { IconBase } from "./IconBase";
 
 export { ArcIcon } from "./icons/Arc";
 
-export { DeleteIcon } from "./icons/Delete";
 export { DownloadIcon } from "./icons/Download";
-export { FormulaIcon } from "./icons/Formula";
 export { GeometryIcon } from "./icons/Geometry";
-
-export { LineIcon } from "./icons/Line";
-
 
 export { RedoIcon } from "./icons/Redo";
 export { RectanglesIcon } from "./icons/Rectangles";
@@ -20,10 +15,14 @@ export { TriangleIcon } from "./icons/Triangle";
 export { UndoIcon } from "./icons/Undo";
 
 //
+export { AngleMarkIcon } from "./icons/AngleMark";
 export { CircleIcon } from "./icons/Circle";
+export { DeleteIcon } from "./icons/Delete";
+export { FormulaIcon } from "./icons/Formula";
 export { FormulasListIcon } from "./icons/FormulasList";
 export { LandscapeIcon } from "./icons/Landscape";
 export { LineCurveIcon } from "./icons/LineCurve";
+export { LineIcon } from "./icons/Line";
 export { MathSymbolsIcon } from "./icons/MathSymbols";
 export { PencilIcon } from "./icons/Pencil";
 export { PortraitIcon } from "./icons/Portrait";

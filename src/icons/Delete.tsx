@@ -1,14 +1,30 @@
 import * as React from "react";
-import type { SVGProps } from "react";
-export const DeleteIcon = (props: SVGProps<SVGSVGElement>) => (
+import type {IconProps} from "../types";
+export const DeleteIcon: React.FC<IconProps> = ({
+    size = 24,
+    color = "currentColor",
+    strokeWidth = 2,
+    ...props
+}) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
-    fill="currentColor"
+    xmlSpace="preserve"
+    id="delete_svg__\u0421\u043B\u043E\u0439_1"
     viewBox="0 0 24 24"
-    width="1em"
-    height="1em"
+    stroke={color}
+    width={size}
+    height={size}
+    strokeWidth={strokeWidth}
     {...props}
   >
-    <path d="M12 3.625a2.875 2.875 0 0 1 2.873 2.765l.002.11H18.5a.625.625 0 0 1 .064 1.247l-.064.003h-.546l-.851 11.285A2.125 2.125 0 0 1 14.983 21H9.017a2.125 2.125 0 0 1-2.119-1.965L6.045 7.75H5.5a.625.625 0 0 1-.622-.561l-.003-.064c0-.324.246-.59.561-.622L5.5 6.5h3.625A2.875 2.875 0 0 1 12 3.625m4.701 4.125H7.3l.845 11.19c.034.457.414.81.872.81h5.968a.875.875 0 0 0 .873-.81zm-3.076 2.625c.324 0 .59.246.622.561l.003.064v5.5a.625.625 0 0 1-1.247.064L13 16.5V11c0-.345.28-.625.625-.625m-3.25 0c.324 0 .59.246.622.561L11 11v5.5a.625.625 0 0 1-1.247.064L9.75 16.5V11c0-.345.28-.625.625-.625M12 4.875c-.867 0-1.575.678-1.622 1.533l-.003.092h3.25c0-.897-.727-1.625-1.625-1.625" />
+    <style>
+      {
+        ".delete_svg__st0{display:none}.delete_svg__st1{fill:none;stroke-miterlimit:1}.delete_svg__st1,.delete_svg__st2{display:inline}.delete_svg__st2,.delete_svg__st4{fill:none;stroke-miterlimit:10}"
+      }
+    </style>
+    <path
+      d="M6.03 6.36h11.96M9.86 5.46c0-1.19.96-2.15 2.15-2.15M14.16 5.46c0-1.19-.96-2.15-2.15-2.15M10.75 5.46h2.52M5.41 7.25l1.06 11.39M18.61 7.25l-1.07 11.39M17.55 18.54c-.18 2.15-.82 2.16-2.25 2.16M4.62 7.24H19.3M8.35 9.58l.81 8.78M15.67 9.7l-.82 8.77M12.01 9.45v9.04M6.46 18.53c.18 2.15.83 2.16 2.25 2.16M8.47 20.7h7.04"
+      className="delete_svg__st4"
+    />
   </svg>
 );
