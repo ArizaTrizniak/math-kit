@@ -1,20 +1,25 @@
 import * as React from "react";
-import type { SVGProps } from "react";
-export const UndoIcon = (props: SVGProps<SVGSVGElement>) => (
+import type {IconProps} from "../types";
+export const UndoIcon: React.FC<IconProps> = ({
+    size = 24,
+    color = "currentColor",
+    strokeWidth = 2,
+    ...props
+}) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
-    fill="none"
     viewBox="0 0 24 24"
-    width="1em"
-    height="1em"
+    stroke={color}
+    width={size}
+    height={size}
+    strokeWidth={strokeWidth}
+    fill="none"
     {...props}
   >
     <path
-      stroke="#000"
       strokeLinecap="round"
       strokeLinejoin="round"
-      strokeWidth={2}
-      d="M1 2.25V8.5h6.563M22 11c-.653-5.625-4.42-10-10.5-10-3.582 0-7.781 2.835-9.573 6.875"
+      d="M4 8v5.695m0 0h5.925m-5.925 0c2.298-1.983 4.427-4.227 7.649-4.663a9.2 9.2 0 0 1 5.539.983A8.7 8.7 0 0 1 21 14"
     />
   </svg>
 );

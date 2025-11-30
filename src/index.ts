@@ -20,6 +20,7 @@ export { CircleIcon } from "./icons/Circle";
 export { DeleteIcon } from "./icons/Delete";
 export { FormulaIcon } from "./icons/Formula";
 export { FormulasListIcon } from "./icons/FormulasList";
+export { FunctionGraphIcon } from "./icons/FunctionGraph";
 export { LandscapeIcon } from "./icons/Landscape";
 export { LineCurveIcon } from "./icons/LineCurve";
 export { LineIcon } from "./icons/Line";
