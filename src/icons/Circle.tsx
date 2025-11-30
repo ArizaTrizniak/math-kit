@@ -1,18 +1,30 @@
 import * as React from "react";
-import type { SVGProps } from "react";
-export const CircleIcon = (props: SVGProps<SVGSVGElement>) => (
+import type {IconProps} from "../types";
+export const CircleIcon : React.FC<IconProps> = ({
+     size = 24,
+     color = "currentColor",
+     strokeWidth = 2,
+     ...props
+}) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
-    fill="currentColor"
+    xmlSpace="preserve"
+    id="circle_svg__\u0421\u043B\u043E\u0439_1"
     viewBox="0 0 24 24"
-    width="1em"
-    height="1em"
+    stroke={color}
+    width={size}
+    height={size}
+    strokeWidth={strokeWidth}
     {...props}
   >
+    <style>
+      {
+        ".circle_svg__st0{display:none}.circle_svg__st1,.circle_svg__st2{fill:none}.circle_svg__st1{display:inline;stroke-miterlimit:1}.circle_svg__st2{stroke-miterlimit:10}.circle_svg__st2,.circle_svg__st3{display:inline}.circle_svg__st4,.circle_svg__st6{fill:none;stroke-miterlimit:10}.circle_svg__st6{display:none}"
+      }
+    </style>
     <path
-      fillRule="evenodd"
-      d="M12 5a7 7 0 1 0 0 14 7 7 0 0 0 0-14m-9 7a9 9 0 1 1 18 0 9 9 0 0 1-18 0"
-      clipRule="evenodd"
+      d="M12 19.72c-4.26 0-7.72-3.46-7.72-7.72S7.74 4.28 12 4.28s7.72 3.46 7.72 7.72-3.46 7.72-7.72 7.72z"
+      className="circle_svg__st4"
     />
   </svg>
 );

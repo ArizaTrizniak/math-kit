@@ -1,14 +1,30 @@
 import * as React from "react";
-import type { SVGProps } from "react";
-export const PortraitIcon = (props: SVGProps<SVGSVGElement>) => (
+import type {IconProps} from "../types";
+export const PortraitIcon: React.FC<IconProps> = ({
+      size = 24,
+      color = "currentColor",
+      strokeWidth = 2,
+      ...props
+}) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
-    fill="currentColor"
+    xmlSpace="preserve"
+    id="portrait_svg__\u0421\u043B\u043E\u0439_1"
     viewBox="0 0 24 24"
-    width="1em"
-    height="1em"
+    stroke={color}
+    width={size}
+    height={size}
+    strokeWidth={strokeWidth}
     {...props}
   >
-    <path d="M.067.202c-.06.133-.08 5.086-.06 11.022L.067 22H13V.07L6.573.013C1.54-.025.127.013.067.203M11.31 11.035v9.358h-9.55V1.677h9.55z" />
+    <style>
+      {
+        ".portrait_svg__st0{display:none}.portrait_svg__st1{fill:none;stroke-miterlimit:1}.portrait_svg__st1,.portrait_svg__st2{display:inline}.portrait_svg__st2,.portrait_svg__st4{fill:none;stroke-miterlimit:10}"
+      }
+    </style>
+    <path
+      d="M16.65 20.61H7.4c-.56 0-1.01-.46-1.01-1.01V4.41c0-.56.46-1.01 1.01-1.01h9.25c.56 0 1.01.46 1.01 1.01V19.6c0 .55-.46 1.01-1.01 1.01z"
+      className="portrait_svg__st4"
+    />
   </svg>
 );

@@ -1,14 +1,30 @@
 import * as React from "react";
-import type { SVGProps } from "react";
-export const LandscapeIcon = (props: SVGProps<SVGSVGElement>) => (
+import type {IconProps} from "../types";
+export const LandscapeIcon: React.FC<IconProps> = ({
+      size = 24,
+      color = "currentColor",
+      strokeWidth = 2,
+      ...props
+}) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
-    fill="currentColor"
+    xmlSpace="preserve"
+    id="landscape_svg__\u0421\u043B\u043E\u0439_1"
     viewBox="0 0 24 24"
-    width="1em"
-    height="1em"
+    stroke={color}
+    width={size}
+    height={size}
+    strokeWidth={strokeWidth}
     {...props}
   >
-    <path d="M4.836 6.515c-.032.064-.043 1.637-.032 3.475l.032 3.348h12.328V6.43l-6.143-.032c-4.878-.021-6.153 0-6.185.117m11.425 3.37v2.55H5.739V7.333h10.522z" />
+    <style>
+      {
+        ".landscape_svg__st0{display:none}.landscape_svg__st1{fill:none;stroke-miterlimit:1}.landscape_svg__st1,.landscape_svg__st2{display:inline}.landscape_svg__st2,.landscape_svg__st4{fill:none;stroke-miterlimit:10}"
+      }
+    </style>
+    <path
+      d="M20.63 7.38v9.25c0 .56-.46 1.01-1.01 1.01H4.43c-.56 0-1.01-.46-1.01-1.01V7.38c0-.56.46-1.01 1.01-1.01h15.19c.55-.01 1.01.45 1.01 1.01z"
+      className="landscape_svg__st4"
+    />
   </svg>
 );
