@@ -1,10 +1,10 @@
 import * as React from "react";
 import type {IconProps} from "../types";
-export const DownloadIcon: React.FC<IconProps> = ({
-  size = 24,
-  color = "currentColor",
-  strokeWidth = 2,
-  ...props
+export const PolygonIcon : React.FC<IconProps> = ({
+    size = 24,
+    color = "currentColor",
+    strokeWidth = 2,
+    ...props
 }) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
@@ -18,11 +18,7 @@ export const DownloadIcon: React.FC<IconProps> = ({
   >
     <path
       strokeMiterlimit={10}
-      d="M5 11v6.426c0 .32.22.574.497.574h13.006c.277 0 .497-.254.497-.574V11M12 5v8"
-    />
-    <path
-      strokeMiterlimit={10}
-      d="m11.25 14.024.8.976.75-1.008.75-.992-1.55.016-1.55.017z"
+      d="M5 20V4.571l6.708 8.572L13.919 4 20 4.571V20z"
     />
   </svg>
 );

@@ -1,31 +1,28 @@
 export * from "./types";
 export { IconBase } from "./IconBase";
 
-export { ArcIcon } from "./icons/Arc";
-
-export { DownloadIcon } from "./icons/Download";
-export { GeometryIcon } from "./icons/Geometry";
-
-export { RedoIcon } from "./icons/Redo";
-export { RectanglesIcon } from "./icons/Rectangles";
-
-export { SquareIcon } from "./icons/Square";
-
-export { TriangleIcon } from "./icons/Triangle";
-export { UndoIcon } from "./icons/Undo";
-
-//
 export { AngleMarkIcon } from "./icons/AngleMark";
+export { ArcIcon } from "./icons/Arc";
+export { BrushIcon } from "./icons/Brush";
 export { CircleIcon } from "./icons/Circle";
 export { DeleteIcon } from "./icons/Delete";
+export { DownloadIcon } from "./icons/Download";
 export { FormulaIcon } from "./icons/Formula";
 export { FormulasListIcon } from "./icons/FormulasList";
 export { FunctionGraphIcon } from "./icons/FunctionGraph";
+export { GeometryIcon } from "./icons/Geometry";
 export { LandscapeIcon } from "./icons/Landscape";
 export { LineCurveIcon } from "./icons/LineCurve";
 export { LineIcon } from "./icons/Line";
 export { MathSymbolsIcon } from "./icons/MathSymbols";
 export { PencilIcon } from "./icons/Pencil";
+export { PolygonIcon } from "./icons/Polygon";
+export { PolylineIcon } from "./icons/Polyline";
 export { PortraitIcon } from "./icons/Portrait";
+export { RectanglesIcon } from "./icons/Rectangles";
+export { RedoIcon } from "./icons/Redo";
 export { ShapesIcon } from "./icons/Shapes";
+export { SquareIcon } from "./icons/Square";
 export { TextIcon } from "./icons/Text";
+export { TriangleIcon } from "./icons/Triangle";
+export { UndoIcon } from "./icons/Undo";
