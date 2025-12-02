@@ -2,9 +2,15 @@
   "name": "@math-kit/icon",
   "version": "1.1.0",
   "description": "",
-  "main": "dist/index.cjs",
+  "main": "dist/index.js",
   "module": "dist/index.mjs",
   "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.js"
+    }
+  },
   "sideEffects": false,
   "peerDependencies": {
     "react": ">=18.0.0"
